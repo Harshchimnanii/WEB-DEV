@@ -31,7 +31,12 @@ console.log(sym1 === sym2)
 console.log(typeof(sym1))
 
 
-
+// ab dekh  
+const sym3 = Symbol("identifier of : ")
+myobj ={};
+myobj[sym3] = 32
+console.log(myobj)
+console.log(typeof(sym3))
 
 
 
