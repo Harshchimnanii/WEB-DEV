@@ -85,6 +85,8 @@ console.log(" Unary +num : ", +num);
 console.log(" Unary -num : ", -num);
 console.log(" Increment ++num : ", ++num);
 console.log(" Decrement --num : ", --num);
+console.log(" Decrement num-- : ", num--);
+console.log(" After num++ : ", num++);
 
 // example of relational operators
 let arr = [1, 2, 3];
@@ -101,4 +103,4 @@ console.log(" Combined Array using Spread Operator : ", combinedArr);
 let person = { name: "John", age: 30 };
 let { name, age } = person;
 console.log(" Name : ", name);
-console.log(" Age : ", age);    
+console.log(" Age : ", age);
