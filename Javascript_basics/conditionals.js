@@ -45,7 +45,7 @@ let grade = (score >= 90) ? 'A' :
             (score >= 70) ? 'C' :
             (score >= 60) ? 'D' : 'F';
 
-console.log("Your grade is: ", grade);]
+console.log("Your grade is: ", grade);
 // modern switch case using switch expression (ES2022 and later)
 let month = 4;
 let monthName = (() => {
