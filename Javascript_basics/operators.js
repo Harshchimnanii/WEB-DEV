@@ -58,8 +58,8 @@ console.log(" m & n : ", m & n); // AND
 console.log(" m | n : ", m | n); // OR
 console.log(" m ^ n : ", m ^ n); // XOR
 console.log(" ~m : ", ~m);       // NOT
-console.log(" m << 1 : ", m << 1); // Left Shift
-console.log(" m >> 1 : ", m >> 1); // Right Shift
+console.log(" m << 1 : ", m << 1); // Left Shift (num will get multiplied by 2 to the power a)
+console.log(" m >> 1 : ", m >> 1); // Right Shift (num will get divided by 2 to the power a)
 
 // example of logical operators
 let p = true;
