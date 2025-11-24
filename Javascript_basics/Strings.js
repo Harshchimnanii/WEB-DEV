@@ -1,7 +1,7 @@
 // String notes full 
 /* String Methods in JavaScript */
 
-let myString = "  Hello, welcome to the world of JavaScript!  ";
+let myString = "Hello, welcome to the world of JavaScript!  ";
 
 // Length of the string
 console.log("Length of the string:", myString.length);
@@ -23,6 +23,7 @@ console.log("Replaced string:", myString.replace("JavaScript", "JS"));
 
 // Split the string into an array
 console.log("Split string:", myString.split(","));
+// 
 
 // Access character at a specific index
 console.log("Character at index 1:", myString.charAt(1));
@@ -73,7 +74,7 @@ let paddedString = "5".padStart(3, "0");
 console.log("Padded string:", paddedString);
 
 // Check startsWith and endsWith
-console.log("Starts with '  Hello':", myString.startsWith("  Hello"));
+console.log("Starts with '  Hello':", myString.startsWith("Hello"));
 console.log("Ends with 'JavaScript!  ':", myString.endsWith("JavaScript!  "));
 
 // String normalization
