@@ -1,5 +1,5 @@
 //  lets create a function 
-function tmkc(){
-    console.log("kya be madarchod")
+function helloBhai(){
+    console.log("kaise ho aap")
 }
-tmkc();
+helloBhai();
