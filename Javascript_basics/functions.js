@@ -12,7 +12,7 @@ function loop(){
 loop();
 // paramerters passing
 function param(number){
-    
+
     console.log(number +10);
 }
 param(8);
@@ -28,7 +28,13 @@ let result = ret(12 , 3);
 console.log(result);
 
 //  lets take another method to initialise the function 
-let squarednumber = function (a){
+const squarednumber = function (a){
     return a**2;
 }
 console.log(squarednumber(10));
+
+// Arrow functions 
+let getExp = (x,y) => {
+    console.log(x**y);
+}
+getExp(2,10)
