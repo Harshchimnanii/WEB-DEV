@@ -30,13 +30,13 @@ console.log(`shallow copy `)
 const objj1 = { a: 1, b: { c: 2 } };
 
 // Shallow copies
-const copy1 = Object.assign({}, obj);
-const copy2 = { ...objj1 }; // spread operator
+let originalobj = {
+    name : "harsh",
+    address : {city : "delhi"}
+};
+let shallowcopy = {...originalobj};
 
-copy1.b.c = 100;
-console.log(obj.b.c); // 100 (changes original!)
-
-
+console.log(originalobj);
 console.log(`deep copy `)
 const objj  = { a: 1, b: { c: 2 } };
 
