@@ -25,7 +25,7 @@ console.log(obj1)
 
 // interview questions 
 // Shallow copy copies only the top-level properties and keeps references to nested objects, while deep copy duplicates everything independently so nested objects are not shared.
-
+// Basically shallow copy ka Matlab hai he original copy Ki Ek duplicate copy  banna dana or deep copy ka matlab hai EK string banane ke baad usko Ek variable me assign kardena : shallow copy directly related to original copy ; deep copy is just opposite
 console.log(`shallow copy `)
 const objj1 = { a: 1, b: { c: 2 } };
 
@@ -35,8 +35,8 @@ let originalobj = {
     address : {city : "delhi"}
 };
 let shallowcopy = {...originalobj};
-
-console.log(originalobj);
+originalobj.address.city = 'agra'
+console.log(shallowcopy);
 console.log(`deep copy `)
 const objj  = { a: 1, b: { c: 2 } };
 

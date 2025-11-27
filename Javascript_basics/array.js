@@ -1,37 +1,48 @@
-let arr = [1 , 2, 3,4  ,45,66 ,54,5555 ,64,]
-for (let i = 0 ; i<arr.length ; i++){
-    console.log(arr[i]);
-}
-//  initialization of an array 
+// // initialization of an array 
+// let arr = [1, 2, 3, 4, 5];
+// // array constructor
+// let brr = ['Harsh' , 1 , true];
 
-let arr1 = new Array(1 , "hello" , true);
-console.log(typeof(arr1));
-console.log(typeof(arr));
+// // print the arry 
+// console.log(arr);
+// console.log(brr);
+// console.log(brr[0]);
+// console.log(typeof(arr));
+// console.log(typeof(brr));
+
+// // push(dekho last me ek element jo doge wo pass kardega mtlb add) pop(ye bkl last wala remove kardeta h ) 
+// brr.push("Chimnani");
+// brr.pop("");
+
+// // shift (remove first element) unshift (insert element at left most side)
+// brr.unshift("babuu ho aap mere ");
+// brr.shift();
+
+// // slice(`take out a part of an array) 
+// brr.push(20);
+// brr.push(40);
+// brr.push(70);
+// console.log(brr.slice(2, 4)); //  uses shallowcopy not a deep copyy
+
+// // splice (we can change(insert , remove , replace) the content of array)
+// //  1 index se 2 value remove karo or waha pe kashish dalo
+// console.log(brr.splice(1 , 2 , "Kashish"));
+// // bina remove kare add karke dikha mc 
+// console.log(brr.splice(1 ,0, "Jaish"));
 
 
-//  push pop 
 
-arr.push("bablu");
-
-arr.pop("");
-
-
-
-
-
-
-// shift (rm first element ) unshift (insert element at left most side ) 
-arr.shift();
-arr.unshift("babuu ho aap mere ");
-
-
-// slice split
-
-console.log(arr.slice(0 , 3));
 // map
+ let arr = [10 , 20 , 30];
+let ansArray = arr.map((number) => {
+    return number*number;
+
+});
 // filter 
 // reduce 
 // sort 
-//index of 
-//find
-console.log(arr);
+// index of 
+// find
+
+console.log(ansArray);
+// console.log(brr);
