@@ -33,16 +33,33 @@
 
 
 // map
- let arr = [10 , 20 , 30];
+ let arr = [10 , 20 , 30 , 11 , 44 , 41 , 51 ];
 let ansArray = arr.map((number) => {
     return number*number;
-
 });
+arr.map((number, index ) => {
+    console.log(number)
+    console.log(index)
+});
+
+
 // filter 
+let evenArray = arr.filter((number) => {
+    if (number%2 === 0 ){
+        return true;
+    } 
+    else{
+        return false;
+        
+    }
+});
+
+
+
 // reduce 
 // sort 
 // index of 
 // find
 
-console.log(ansArray);
+console.log(evenArray);
 // console.log(brr);
