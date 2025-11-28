@@ -44,14 +44,22 @@ arr.map((number, index ) => {
 
 
 // filter 
-let evenArray = arr.filter((number) => {
-    if (number%2 === 0 ){
-        return true;
-    } 
-    else{
-        return false;
+// let evenArray = arr.filter((number) => {
+//     if (number%2 === 0 ){
+//         return true;
+//     } 
+//     else{
+//         return false;
         
-    }
+//     }
+// });
+//  another way 
+// let evenArray = arr.filter((number) => {
+//     let status = number&2===0? true : false;
+// });
+// another way 
+let evenArray = arr.filter((number) => {
+    return number%2 === 0;
 });
 
 
