@@ -29,7 +29,7 @@ for (let m = 0; m < 10; m++) {
 for (let n = 0; n < 10; n++) {
     if (n % 2 === 0) {
         console.log("Continuing at even iteration: ", n);
-        continue; // ye apni maa chudwata h loop ko end kar deta h seedhe shuruaat se chalu kardeta h to jara sambhaale ke 
+        continue; // ye loop ko end kar deta h seedhe shuruaat se chalu kardeta h to jara sambhaale ke 
     }
     console.log("Odd iteration: ", n);
 }
