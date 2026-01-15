@@ -5,8 +5,11 @@ accountCity = "jaipur";
 let accountState;
 
 // accountID = 2 // not allowed 
+/*
+try not to use var scope ko nhi maanta khi bhi change or access hojata h or modify bhi 
+*/
 
-accountName = "hello Gun solanki ";
+accountName = "hello Gun solanki";
 accountpassword = '123777977';
 accountCity = "Agra";
 
