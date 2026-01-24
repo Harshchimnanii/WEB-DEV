@@ -55,4 +55,4 @@ console.log(typeof myobj);
 
 // null is also an object bhaii 
 
-unique wala maamla smjha 
+// unique wala maamla smjha 
