@@ -1,6 +1,6 @@
 // String notes full 
 /* String Methods in JavaScript */
-
+/*
 let myString = "Hello, welcome to the world of JavaScript!  ";
 
 // Length of the string
@@ -90,3 +90,53 @@ for (let char of myString) {
 // String from char codes
 let charFromCode = String.fromCharCode(72, 101, 108, 108, 111);
 console.log("String from char codes:", charFromCode);
+*/
+
+
+
+
+// --------------------------------------------------Chai Or Code-------------------------------------------------------
+// -----------------------------------------------------Strings---------------------------------------------------------
+
+const name = "Harsh Chimnani";
+const RepoCount = 50; 
+
+// console.log(name + RepoCount + " Value "); not used in modern days 
+console.log(`The Person named ${name} has ${RepoCount} repos at present`);
+
+// another way to declare strings : like string builders 
+const GameName = new String("HarshCodes ");
+console.log(GameName);
+
+console.log(GameName[0]);
+console.log(GameName.__proto__);
+
+
+//  find the length
+console.log(GameName.length);
+// capital me kardeta h
+console.log(GameName.toUpperCase());
+// index nikaalne ke liye indexof
+console.log(GameName.indexOf('C'));
+// index se char nikaalne ke liye charAt 
+console.log(GameName.charAt(2));
+// substring nikaalne ke liye 
+console.log(GameName.substring(0 , 4));
+// negative bhi use kar sakte h 
+console.log(GameName.slice(-8 , 4));
+// trim 
+console.log(GameName.trim());
+// url thing 
+const url = "https://youtu.be/fozwNnFunlo?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37";
+console.log(url.replace('2y-' , '%'))
+
+// replace
+const pajii = "12374!#@$^$&%&*&&^()?Harsh Chimnani,.,..;";
+console.log(pajii.replaceAll(/[^a-zA-Z0-9]/g, ""));
+
+// split method use mdn search 
+const UseCase = "Harsh Amit Shaurya Suryansh"
+console.log(UseCase.split(' '));
+
+
+
