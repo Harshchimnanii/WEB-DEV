@@ -15,3 +15,9 @@ arr1.unshift(9);
 console.log(arr1);
 arr1.shift();
 console.log(arr1);
+
+// questionairre
+
+
+console.log(arr1.includes(2));
+console.log(arr1.indexOf(2));
